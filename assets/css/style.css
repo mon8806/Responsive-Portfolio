@@ -1,0 +1,103 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    background:rgb(134, 100, 134);
+    border-color: #dddddd;
+    width: 100%;
+
+}
+
+header {
+    background:#ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-right: 48px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+li a {
+    display: block;
+    color: gray;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h2{
+    color:#6a4d75;
+    border-color: #cccccc; 
+}
+
+footer{
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background: rgb(85, 83, 83);
+    color:white;
+    border-top: 7px solid #6a4d75;
+    margin-left:-1%;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 3%;
+    float: left;
+}
+
+.Nav {
+    width:100%;
+    background-color: #ffffff;
+    margin-top:-1%;
+
+}
+
+.Nav ul {
+    width: 960px;
+    margin-left: 25%;
+   
+}
+#Monica {
+    font-size: 20px;
+    float: left; 
+    width: 25%;
+}
+
+#Monica a{
+    color: white;
+    background:  #6a4d75;
+    text-align: center;
+}
+
+
+.container {
+    background: #ebebeb;
+    width: 960px;
+    height: 500px;
+    padding: 1%;
+    margin: 10% 15% 10% 15%;
+}
+
+@media screen and (max-width: 980px) {
+    .container{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        width: 50%;
+    }
+}
